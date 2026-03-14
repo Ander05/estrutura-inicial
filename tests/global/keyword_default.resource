@@ -11,7 +11,8 @@ Abrir navegação
 
     New Browser    chromium        headless=False    downloadsPath=${downloadDir}    args=["--start-maximized"]     slowMo=0.5s
     New Context    locale=pt-BR    viewport=${None}    timezoneId=America/Sao_Paulo
-    New Page       ${link.url}
+    #New Page       ${link.url}
+    New Page       ${links}
 
 
 Apagando arquivos download
