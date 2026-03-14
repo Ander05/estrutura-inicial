@@ -1,0 +1,10 @@
+robotframework
+setuptools
+robotframework-browser
+robotframework-requests
+pyyaml
+robotframework-faker
+robotframework-debuglibrary
+beautifulsoup4
+pyzbar
+pillow
